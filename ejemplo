@@ -1,0 +1,8 @@
+
+fecha = ('10/09/2017')
+    
+trozos = fecha.split('/')
+print 'Dia:', trozos[0], 'Mes:', trozos[1], 'Año:', trozos[2] 
+  
+  dia ={01:'uno',02:'dos',03:'tres',04:'cuatro',05:'cinco',06:'seis',07:'siete',08:'ocho',09:'nueve',10:'diez',11:'once',12:'doce',13:'trece',14:'catorce',15:'quince',16:'diesciseis',17:'diesciciete',18:'diecsiocho',19:'dievinueve',20:'veinte',21:'veintiuno',22:'veintidos',23:'veinticuatro',24:'veinticuatro',25:'veinticinco',26:'ventiseis',27:'veinticiete',28:'veintiocho',29:'veintinueve',30:'treinta'}
+    mes = [01:'enero',02:'febrero',03:'marzo',04:'abril',05:'mayo',06:'junio',07:'julio',08:'agosto',09:'septiembre',10:'octubre',11:'noviembre',12:'diciembre']
