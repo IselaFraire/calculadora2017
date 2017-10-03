@@ -40,8 +40,7 @@ class Calculadora():
 
     def potencia(self, num1, num2):
 
-        if num1 == '/' or num1 == '%' or num1 == '^'
-            and num2 == '/' or num2 == '%' or num2 == '^':
+        if num1 == '/' or num1 == '%' or num1 == '^' and num2 == '/' or num2 == '%' or num2 == '^':
                 raise ValueError
         else:
             return num1 ** num2
