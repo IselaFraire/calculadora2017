@@ -66,10 +66,6 @@ class CalculadoraTest(unittest.TestCase):
 	result = self.calc.division(10,5)
 	self.assertEquals(2, result)
 
-    def test_dividir_menos_05_entre_menos_05_1(self):
-	result = self.calc.division(5,5)
-	self.assertEquals(1, result)
-
     def test_raiz_meno_100_error(self):
 	self.assertRaises(ValueError, self.calc.raiz,-100)
     
@@ -91,29 +87,7 @@ class CalculadoraTest(unittest.TestCase):
     def tearDown(self):
 	pass
 
-if __name__ == '__main__':
+if __name__ == '__main__':#pragma: no cover
     unittest.main()
-else:
-    pass
-
-"""
-    def test_valor_inicio_igual_cero(self):
-        self.assertEquals(self.calc.obtener_resultado(), 0)
-
-    def test_sumar_2_mas_2_igual_4(self):
-	self.calc.suma(2,2)
-	self.assertEquals(self.calc.obtener_resultado(), 4)
-
-    def test_sumar_3_mas_3_igual_6(self):
-	self.calc.suma(3,3)
-	self.assertEquals(self.calc.obtener_resultado(), 6)
-
-    def test_sumar_menos_1_mas_3_igual_1(self):
-	self.calc.suma(-1,2)
-	self.assertEquals(self.calc.obtener_resultado(), 1)
-
-    def test_sumar_t_mas_dos_igual_error(self):
-    	self.assertEquals(self.calc.suma('t',2), 'Datos incorrectos')
-"""
 
 
